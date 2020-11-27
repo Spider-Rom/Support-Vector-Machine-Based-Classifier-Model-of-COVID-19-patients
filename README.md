@@ -1,0 +1,1 @@
+# Support-Vector-Machine-Based-Classifier-Model-of-COVID-19-patients
