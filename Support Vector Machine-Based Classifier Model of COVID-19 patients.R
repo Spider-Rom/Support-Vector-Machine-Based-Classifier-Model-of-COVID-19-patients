@@ -2,7 +2,7 @@ load("SVM model.RData")
 
 require(e1071)
 
-clinical_data = read.table("Clinical data (example).txt",
+clinical_data = read.table("Clinical data (example).txt", #change the file name if necessary
                             sep = "\t", stringsAsFactors = FALSE, header = TRUE)
 
 colnames(clinical_data) = c("Patient id","AST","Alb","LDH","Lymph_rate","Lymph_count","Neu_count","Eos_rate","Eos_count","Baso_count","D_Dimer","PTA","CRP","PT_INR","fever","aversion.to.cold.or.shivering","cough","nasal.obstruction.or.nasal.discharge","pharyngodynia","dyspnea","diarrhea","abdominal.pain","nausea","vomiting","inappetence","hypodynamia","headache","muscle.soreness","palpitations","night.sweat","dizziness")
