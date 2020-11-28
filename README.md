@@ -1,4 +1,4 @@
-# This classification model is a part of a unpublished medicial research, and the predicted values are for reference ONLY by clinicians.
+# This classification model is a part of a unpublished medicial research, and the predicted values are for reference ONLY BY CLINICIANS.
 
 # The model was constructed by R software (version 3.6.0) and e1071 package.
 
